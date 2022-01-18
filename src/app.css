@@ -1,0 +1,312 @@
+#app{
+    padding: 10px 10px;
+}
+p{
+    color: #1A1A1A;
+}
+a, a:hover{
+    text-decoration: none !important;
+    color: #1A1A1A;
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    z-index: 99;
+    background: #fff;
+}
+.searchBarContainer{
+    background: #efefef;
+    border: 0;
+    border-radius: 24px;
+    margin: 0 10px;
+}
+.searchBarContainer:hover{
+    background: #e1e1e1;
+}
+.searchBarInput{
+    background: transparent;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left:10px ;
+    padding: 10px;
+    margin-left: 35px;
+}
+.searchBarInput:focus {
+    outline: none !important;
+}
+.icon{
+    cursor: pointer;
+    color : #767676 !important;
+}
+.searchIcon{
+    position: absolute;
+    padding: 15px;
+    min-width: 40px;
+}
+.brand img{
+    width: 50px;
+    padding: 10px;
+}
+.standard_btn{
+    border-radius: 24px;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+}
+.homeBtn{
+    border-radius: 24px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.notification {
+    padding: 20px 10px;
+}
+.notification_icon .icon{
+    color: #767676;
+    font-size: 25px;
+}
+
+.notification_center{
+  position: fixed;
+  background: #fff;
+  width: 25%;
+  right: 2%;
+  border-radius: 14px;
+  max-height: 100%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-height: 80vh;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+.notification_title{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.avatar{
+    border-radius: 50%;
+
+}
+
+.feed{
+    padding: 0 100px;
+}
+.masonry-container {
+    column-count: 4;
+    column-gap: 10px;
+}
+.pin {
+    width: 100%;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 0 1em;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+}
+.pin .pin_img {
+    display:block;
+    width: 100%;
+    border-radius: 10px;
+}
+.pin .pin_hover{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.save_btn{
+    background: red;
+    color: #fff;
+    padding: 10px 20px;
+}
+.pin:hover  .pin_hover{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.pin_img:hover{
+    cursor: zoom-in;
+}
+.pin .caption{
+    font-weight: bold;
+    margin: 0;
+    padding-top: 8px;
+}
+
+.pin .author{
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+}
+.pin .author  img{
+    margin-right: 5px ;
+    border-radius: 50%;
+}
+
+.pin .add_to_table{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.pin .add_to_table span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+.notification_content{
+    display: flex;
+    align-items: center;
+}
+.notification_content .title{
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.notification_suggestions {
+    margin-top: 5px;
+    column-count: 4;
+    column-gap: 10px;
+}
+.notification_suugestion {
+    background-size: cover;
+    border-radius: 14px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notification_suugestion .suggestion_title{
+    font-weight: 600;
+    color: #fff;
+    font-size: 12px;
+}
+
+.notification:hover{
+    border-radius: 14px;
+    background:#efefef;
+}
+.discussion {
+    padding: 15px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+.discussion:hover {
+    background:#efefef;
+}
+.discussion_right{
+    padding-left: 15px;
+}
+.discussion_right p{
+    margin: 0;
+    line-height: 8px;
+    color: #767676;
+    font-size: 14px;
+}
+.discussion_content .user{
+    font-weight: 600;
+}
+.duscussions_subtitle{
+    padding:10px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 32px;
+
+}
+
+.singlePinav{
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.singlePinav .icon{
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.detail_box{
+    box-shadow: rgba(20, 20, 20, 0.5) 5px 5px 40px 8px;
+    border-radius: 14px;
+    margin: 40px 120px;
+    overflow:hidden;
+
+}
+.detail_box .row{
+    height: 100%;
+
+}
+.detail_box .detail_left{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.detail_box .detail_left{
+    height: 100%;
+}
+.detail_box .detail_right{
+    padding: 50px;
+    padding-top: 100px;
+
+}
+.detail_box .detail_left img{
+    width: 100%;
+
+}
+.detail_box .detail_right .author{
+    display: flex;
+}
+.detail_box .detail_right .author .author_details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.detail_box .detail_right .author .name{
+    font-weight: bold;
+}
+
+.detail_box .detail_right .top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail_box .detail_right .title{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 26px;
+    padding-top: 40px;
+}
+
+
+.description{
+    text-align: center;
+}
+
+.suggestions_feed{
+    padding: 20px;
+}
+.suggestions_feed_title{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+
