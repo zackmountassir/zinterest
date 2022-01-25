@@ -1,4 +1,4 @@
-# [Live demo](https://awesome-wing-fe21cd.netlify.app/)
+# [Live demo](https://lucid-neumann-66cfd2.netlify.app/)
 
 # pinterest
 
